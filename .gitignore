@@ -21,3 +21,7 @@ scratch/
 *.pyc
 extracted.txt
 extract.py
+
+# Large video files (GitHub 100MB limit)
+*.mov
+*.mp4
