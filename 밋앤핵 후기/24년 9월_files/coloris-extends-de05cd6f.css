@@ -1,0 +1,9 @@
+.clr-picker.clr-open,
+.clr-picker[data-inline='true'] {
+  z-index: 10000;
+  display: flex;
+}
+.clr-field button {
+  left: 0px;
+  right: auto;
+}

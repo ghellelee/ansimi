@@ -1,0 +1,93 @@
+/* banner_slide 커스텀 */
+
+.banner-swiper-mixon.swiper {
+  --swiper-navigation-color: #374151;
+  --swiper-navigation-size: 1rem;
+
+  .swiper-pagination {
+    position: relative;
+    bottom: 0;
+  }
+  .swiper-pagination.inside {
+    position: absolute;
+    bottom: 0.725rem;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 20px;
+    background-color: rgb(var(--color-primary));
+    border-radius: 50px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    margin-top: -30px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+/* card_slide 커스텀 */
+
+.card-swiper-mixon.swiper {
+  --swiper-navigation-color: black;
+  --swiper-navigation-size: 0.9rem;
+  --swiper-pagination-color: rgb(var(--color-primary));
+  --swiper-pagination-bottom: 2px;
+
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-pagination {
+    position: relative;
+  }
+
+  .swiper-pagination-fraction {
+    width: 4rem;
+    font-size: 0.9rem;
+    color: #9ca3af;
+  }
+
+  .swiper-pagination-current {
+    font-weight: 500;
+    color: #374151;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 1rem;
+    font-weight: 900;
+    background-color: var(--gray-50);
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  .swiper-button-disabled {
+    color: #9ca3af;
+    background-color: #f9fafb;
+  }
+
+  @media screen and (max-width: 768px) {
+    --swiper-navigation-size: 0.7rem;
+
+    .swiper-pagination-fraction {
+      width: 4rem;
+      font-size: 0.9rem;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      padding: 0.8rem;
+    }
+  }
+}
+
+.swiper.swiper-mixon.swiper-mixon--vote {
+  padding-right: 4rem;
+  padding-left: 4rem;
+
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-pagination {
+    position: absolute;
+  }
+}

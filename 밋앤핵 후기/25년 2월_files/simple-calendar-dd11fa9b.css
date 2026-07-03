@@ -1,0 +1,11 @@
+.simple-calendar .today .day {
+  width: 25px;
+  line-height: 25px;
+  color: white;
+  background-color: #111827;
+  border-radius: 87px;
+}
+
+.simple-calendar .day {
+  line-height: 25px;
+}

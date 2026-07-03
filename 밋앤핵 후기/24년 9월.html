@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://codefor.kr/posts/njt0yOw -->
+<html lang="en" style="--scrollbar-width: 15px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style>
+    
+<link rel="icon" type="image/png" href="https://codefor.kr/_storage_/public/100/0frtlp1kw81aesr5un7beg9m1dbr" sizes="32x32 96x96">
+<link rel="apple-touch-icon-precomposed" type="image/png" href="https://codefor.kr/_storage_/public/100/0frtlp1kw81aesr5un7beg9m1dbr" sizes="32x32">
+
+<meta name="keywords" content="시민 기술, 시빅 해킹, 시빅 해커, 정보 공개, 공익 데이터, 공공 데이터, 열린 정부, 공적마스크앱, 안심번호, 공보지도, 지역화폐, civic technology, civic hacking, civic hacker, 코포코, cofoco">
+
+
+<meta property="og:site_name" content="코드포코리아 (Code for Korea)">
+
+<meta name="twitter:card" content="summary">
+
+
+<meta name="twitter:site" content="@codeforkr">
+      <script type="text/javascript" async="" src="./24년 9월_files/js"></script><script async="" src="./24년 9월_files/gtm.js.다운로드"></script><script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js',
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M8BD6P3K');
+      </script>
+      <script src="./24년 9월_files/api.js.다운로드" defer="" data-turbo-track=""></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="rails_env" content="production">
+
+
+<meta name="turbo-prefetch" content="false">
+<meta name="csrf-param" content="authenticity_token">
+
+
+
+<link rel="stylesheet" href="./24년 9월_files/tailwind-43ff6310.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/inter-font-1d90a608.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/tailwind-page-block-30bb1bc2.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/inter-font-1d90a608.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/swiper-bundle-faf04b82.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/swiper-bundle-extends-222ddf26.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/coloris-c082b344.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/coloris-extends-de05cd6f.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/github-dark-c1d57ba1.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/layout-e5075088.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/scrollbar-44e9762e.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/pdf-viewer-298b4e5f.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/simple-calendar-dd11fa9b.css" data-turbo-track="reload">
+<link rel="stylesheet" href="./24년 9월_files/simple-calendar-extends-d86da4d2.css" data-turbo-track="reload">
+
+
+<link rel="stylesheet" as="style" href="./24년 9월_files/pretendard.css">
+
+
+  <style>
+    .custom-theme {
+        --color-primary: 199,63,63;
+        --color-secondary: 55,45,41;
+        --color-primary-foreground: 255,255,255;
+        --color-secondary-foreground: 255,255,255;
+    }
+  </style>
+
+<script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-41514ba3.js",
+    "controllers/application": "/assets/controllers/application-e1574339.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-3a2e143f.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-4b1e420e.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-1fc53fe7.js",
+    "flowbite": "https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.1/flowbite.turbo.min.js",
+    "flowbite-datepicker": "/assets/flowbite-datepicker-a23ac4e2.js",
+    "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.11.8/lib/index.js",
+    "@rails/request.js": "/assets/@rails--request-10d39805.js",
+    "js-cookie": "/assets/js-cookie-fd674fab.js",
+    "lodash/debounce": "https://ga.jspm.io/npm:lodash@4.17.21/debounce.js",
+    "lodash/throttle": "https://ga.jspm.io/npm:lodash@4.17.21/throttle.js",
+    "sortablejs": "/assets/sortablejs-d7a36fd1.js",
+    "@melloware/coloris": "/assets/@melloware--coloris-d585dbfe.js",
+    "swiper/bundle": "https://ga.jspm.io/npm:swiper@11.1.4/swiper-bundle.mjs",
+    "altcha": "/assets/altcha-37840c54.js",
+    "altcha/i18n/ko": "/assets/altcha/i18n/ko.min-142e1497.js",
+    "altcha/i18n/ja": "/assets/altcha/i18n/ja.min-784624d1.js",
+    "echarts": "/assets/echarts.min-e5de901a.js",
+    "echarts.themeloader": "/assets/echarts.themeloader-50cf3692.js",
+    "echarts/theme/dark": "/assets/echarts/theme/dark-6a9fac4a.js",
+    "tinymce": "/assets/tinymce-450d5c8b.js",
+    "tinymce/themes/silver": "/assets/tinymce--themes--silver-1fea5d9e.js",
+    "tinymce/icons/default": "/assets/tinymce--icons--default-6d131c2a.js",
+    "tinymce/plugins/image": "/assets/tinymce_plugins/image-d0be9c42.js",
+    "tinymce/plugins/advlist": "/assets/tinymce_plugins/advlist/plugin.min-d3d323f5.js",
+    "tinymce/plugins/lists": "/assets/tinymce_plugins/lists/plugin.min-a184cd90.js",
+    "tinymce/plugins/autolink": "/assets/tinymce_plugins/autolink/plugin.min-70ad882e.js",
+    "tinymce/plugins/link": "/assets/tinymce_plugins/link/plugin.min-c02b71e7.js",
+    "tinymce/plugins/charmap": "/assets/tinymce_plugins/charmap/plugin.min-3e3aadd7.js",
+    "tinymce/plugins/print": "/assets/tinymce_plugins/print/plugin.min-f9bb9b42.js",
+    "tinymce/plugins/preview": "/assets/tinymce_plugins/preview/plugin.min-7d7142f2.js",
+    "tinymce/plugins/anchor": "/assets/tinymce_plugins/anchor/plugin.min-5129f096.js",
+    "tinymce/plugins/code": "/assets/tinymce_plugins/code/plugin.min-389dd351.js",
+    "tinymce/plugins/fullscreen": "/assets/tinymce_plugins/fullscreen/plugin.min-24092773.js",
+    "tinymce/plugins/help": "/assets/tinymce_plugins/help/plugin.min-0f79632d.js",
+    "tinymce/plugins/hr": "/assets/tinymce_plugins/hr/plugin.min-7dbb00e6.js",
+    "tinymce/plugins/insertdatetime": "/assets/tinymce_plugins/insertdatetime/plugin.min-5aa6caaa.js",
+    "tinymce/plugins/media": "/assets/tinymce_plugins/media/plugin.min-10e43538.js",
+    "tinymce/plugins/paste": "/assets/tinymce_plugins/paste/plugin.min-cfab4851.js",
+    "tinymce/plugins/searchreplace": "/assets/tinymce_plugins/searchreplace/plugin.min-e2dccf1e.js",
+    "tinymce/plugins/table": "/assets/tinymce_plugins/table/plugin.min-b822dcbb.js",
+    "tinymce/plugins/visualblocks": "/assets/tinymce_plugins/visualblocks/plugin.min-10225e69.js",
+    "tinymce/plugins/wordcount": "/assets/tinymce_plugins/wordcount/plugin.min-eaa5f185.js",
+    "prism-code-editor": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/index.js",
+    "prism-code-editor/commands": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/extensions/commands.js",
+    "prism-code-editor/highlight-brackets": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/extensions/matchBrackets/highlight.js",
+    "prism-code-editor/prism/languages/markup": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/markup.js",
+    "prism-code-editor/prism/languages/css": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/yaml.js",
+    "prism-code-editor/prism/languages/markdown": "https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/markdown.js",
+    "@lottiefiles/dotlottie-web": "/assets/@lottiefiles--dotlottie-web-abb78f30.js",
+    "pdfjs-dist": "/assets/pdfjs-dist-6decc569.js",
+    "d3": "/assets/d3-1337d2d9.js",
+    "d3-array": "/assets/d3-array-dcc21360.js",
+    "d3-axis": "/assets/d3-axis-85fa0849.js",
+    "d3-brush": "/assets/d3-brush-fbd8b7f4.js",
+    "d3-chord": "/assets/d3-chord-fb006d87.js",
+    "d3-color": "/assets/d3-color-105ebb5b.js",
+    "d3-contour": "/assets/d3-contour-f8d81ff4.js",
+    "d3-delaunay": "/assets/d3-delaunay-42a3bc59.js",
+    "d3-dispatch": "/assets/d3-dispatch-79ecb6ed.js",
+    "d3-drag": "/assets/d3-drag-1641fd0c.js",
+    "d3-dsv": "/assets/d3-dsv-0a36d31b.js",
+    "d3-ease": "/assets/d3-ease-7cefd8e9.js",
+    "d3-fetch": "/assets/d3-fetch-72a3c2eb.js",
+    "d3-force": "/assets/d3-force-5d1545f7.js",
+    "d3-format": "/assets/d3-format-89ab33aa.js",
+    "d3-geo": "/assets/d3-geo-85871f22.js",
+    "d3-hierarchy": "/assets/d3-hierarchy-e550ac50.js",
+    "d3-interpolate": "/assets/d3-interpolate-46876ef7.js",
+    "d3-path": "/assets/d3-path-371afee5.js",
+    "d3-polygon": "/assets/d3-polygon-d04ed820.js",
+    "d3-quadtree": "/assets/d3-quadtree-6793b4ae.js",
+    "d3-random": "/assets/d3-random-2f15e44b.js",
+    "d3-scale": "/assets/d3-scale-541e3be4.js",
+    "d3-scale-chromatic": "/assets/d3-scale-chromatic-194b7e0a.js",
+    "d3-selection": "/assets/d3-selection-6536d848.js",
+    "d3-shape": "/assets/d3-shape-568effaa.js",
+    "d3-time": "/assets/d3-time-0c5ea8a2.js",
+    "d3-time-format": "/assets/d3-time-format-7c088be1.js",
+    "d3-timer": "/assets/d3-timer-82d936b5.js",
+    "d3-transition": "/assets/d3-transition-e0ccac69.js",
+    "d3-zoom": "/assets/d3-zoom-f8d842d9.js",
+    "delaunator": "/assets/delaunator-f7d3bb2a.js",
+    "internmap": "/assets/internmap-1a2ce1e6.js",
+    "robust-predicates": "/assets/robust-predicates-ee031280.js",
+    "d3fc": "/assets/d3fc-376d4899.js",
+    "topojson-client": "/assets/topojson-client-66f53402.js",
+    "@floating-ui/core": "/assets/@floating-ui--core-0872baa7.js",
+    "@floating-ui/utils": "/assets/@floating-ui--utils-fe7f1719.js",
+    "@floating-ui/dom": "/assets/@floating-ui--dom-c4cdc664.js",
+    "@floating-ui/utils/dom": "/assets/@floating-ui--utils--dom-bd33a6ca.js",
+    "exif-js": "/assets/exif-js-725d7651.js",
+    "@egjs/infinitegrid": "https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.10.1/dist/infinitegrid.esm.js",
+    "@cfcs/core": "https://cdn.jsdelivr.net/npm/@cfcs/core@0.0.5/dist/cfcs.esm.js",
+    "@egjs/children-differ": "https://cdn.jsdelivr.net/npm/@egjs/children-differ@1.0.1/dist/children-differ.esm.js",
+    "@egjs/component": "https://cdn.jsdelivr.net/npm/@egjs/component@3.0.4/dist/component.esm.js",
+    "@egjs/grid": "https://cdn.jsdelivr.net/npm/@egjs/grid@1.14.2/dist/grid.esm.js",
+    "@egjs/imready": "https://cdn.jsdelivr.net/npm/@egjs/imready@1.4.1/dist/imready.esm.js",
+    "@egjs/list-differ": "https://cdn.jsdelivr.net/npm/@egjs/list-differ@1.0.1/dist/list-differ.esm.js",
+    "controllers/base/digitalsociety/sidebar_controller": "/assets/controllers/base/digitalsociety/sidebar_controller-93ce818f.js",
+    "controllers/base/woorion/countdown_controller": "/assets/controllers/base/woorion/countdown_controller-9f52c21d.js",
+    "controllers/base/active_link_controller": "/assets/controllers/base/active_link_controller-cab1a9de.js",
+    "controllers/base/alert_controller": "/assets/controllers/base/alert_controller-dc396a75.js",
+    "controllers/base/application_modal_controller": "/assets/controllers/base/application_modal_controller-ac24c1f5.js",
+    "controllers/base/async_download_controller": "/assets/controllers/base/async_download_controller-701eae1c.js",
+    "controllers/base/author_comment_controller": "/assets/controllers/base/author_comment_controller-320ab23b.js",
+    "controllers/base/author_search_controller": "/assets/controllers/base/author_search_controller-2c0563ef.js",
+    "controllers/base/auto_show_controller": "/assets/controllers/base/auto_show_controller-c865d73a.js",
+    "controllers/base/bulk_single_select_action_controller": "/assets/controllers/base/bulk_single_select_action_controller-f72418ff.js",
+    "controllers/base/campaigns_widget_controller": "/assets/controllers/base/campaigns_widget_controller-7bd67b82.js",
+    "controllers/base/character_counter_controller": "/assets/controllers/base/character_counter_controller-ca7e8ef7.js",
+    "controllers/base/chatbot/happytalk_controller": "/assets/controllers/base/chatbot/happytalk_controller-3e4d7058.js",
+    "controllers/base/checkbox_select_all_controller": "/assets/controllers/base/checkbox_select_all_controller-15ba0a0b.js",
+    "controllers/base/checkbox_toggle_all_controller": "/assets/controllers/base/checkbox_toggle_all_controller-31be6cad.js",
+    "controllers/base/checked_summary_controller": "/assets/controllers/base/checked_summary_controller-e75cc81a.js",
+    "controllers/base/checked_toggle_controller": "/assets/controllers/base/checked_toggle_controller-7f96bb26.js",
+    "controllers/base/clipboard_controller": "/assets/controllers/base/clipboard_controller-4b0a3789.js",
+    "controllers/base/color_preview_controller": "/assets/controllers/base/color_preview_controller-11f7c853.js",
+    "controllers/base/datepicker_controller": "/assets/controllers/base/datepicker_controller-55a651b5.js",
+    "controllers/base/dialog_modal_controller": "/assets/controllers/base/dialog_modal_controller-1fb96172.js",
+    "controllers/base/dropdown_controller": "/assets/controllers/base/dropdown_controller-4501f85c.js",
+    "controllers/base/file_size_controller": "/assets/controllers/base/file_size_controller-34eb5310.js",
+    "controllers/base/file_title_controller": "/assets/controllers/base/file_title_controller-330fb2d7.js",
+    "controllers/base/flash_controller": "/assets/controllers/base/flash_controller-6f8b6f4f.js",
+    "controllers/base/form_clone_controller": "/assets/controllers/base/form_clone_controller-0f6a1eef.js",
+    "controllers/base/form_meta_context_controller": "/assets/controllers/base/form_meta_context_controller-32239323.js",
+    "controllers/base/form_preview_controller": "/assets/controllers/base/form_preview_controller-ea73a7e5.js",
+    "controllers/base/form_state_controller": "/assets/controllers/base/form_state_controller-98731a63.js",
+    "controllers/base/form_submit_controller": "/assets/controllers/base/form_submit_controller-688fbe7e.js",
+    "controllers/base/hani/comments_embed_controller": "/assets/controllers/base/hani/comments_embed_controller-f00db1e7.js",
+    "controllers/base/height_adjustment_controller": "/assets/controllers/base/height_adjustment_controller-63416cfb.js",
+    "controllers/base/iframe_resize_controller": "/assets/controllers/base/iframe_resize_controller-8aa5f355.js",
+    "controllers/base": "/assets/controllers/base/index-160e205b.js",
+    "controllers/base/label_controller": "/assets/controllers/base/label_controller-2a6d862e.js",
+    "controllers/base/limited_checkbox_controller": "/assets/controllers/base/limited_checkbox_controller-63b86553.js",
+    "controllers/base/maps/kakao_address_controller": "/assets/controllers/base/maps/kakao_address_controller-c46933b6.js",
+    "controllers/base/maps/kakao_controller": "/assets/controllers/base/maps/kakao_controller-fd817442.js",
+    "controllers/base/move_page_controller": "/assets/controllers/base/move_page_controller-cf41e5c8.js",
+    "controllers/base/move_turbo_frame_controller": "/assets/controllers/base/move_turbo_frame_controller-95ae6153.js",
+    "controllers/base/nested_fields_controller": "/assets/controllers/base/nested_fields_controller-0ef88a7f.js",
+    "controllers/base/nested_form_controller": "/assets/controllers/base/nested_form_controller-04c0e76c.js",
+    "controllers/base/parent_child_select_options_controller": "/assets/controllers/base/parent_child_select_options_controller-6b094239.js",
+    "controllers/base/popup_controller": "/assets/controllers/base/popup_controller-a70c7d2f.js",
+    "controllers/base/preview_tabs_controller": "/assets/controllers/base/preview_tabs_controller-c2ef88ca.js",
+    "controllers/base/print_frame_controller": "/assets/controllers/base/print_frame_controller-b56d424b.js",
+    "controllers/base/prompt_confirmation_controller": "/assets/controllers/base/prompt_confirmation_controller-e18f8a9a.js",
+    "controllers/base/radio_binding_controller": "/assets/controllers/base/radio_binding_controller-5ad26fac.js",
+    "controllers/base/remove_element_controller": "/assets/controllers/base/remove_element_controller-bd6fb5fc.js",
+    "controllers/base/scroll_to_controller": "/assets/controllers/base/scroll_to_controller-1dec7eb1.js",
+    "controllers/base/scroll_to_top_controller": "/assets/controllers/base/scroll_to_top_controller-a5ca9610.js",
+    "controllers/base/selected_scroll_to_controller": "/assets/controllers/base/selected_scroll_to_controller-51e1a6b7.js",
+    "controllers/base/selected_toggle_controller": "/assets/controllers/base/selected_toggle_controller-a86168ad.js",
+    "controllers/base/selected_update_controller": "/assets/controllers/base/selected_update_controller-592b41b5.js",
+    "controllers/base/shadow_controller": "/assets/controllers/base/shadow_controller-08b3c487.js",
+    "controllers/base/share_controller": "/assets/controllers/base/share_controller-3cda5b3d.js",
+    "controllers/base/sidebar_controller": "/assets/controllers/base/sidebar_controller-8fc05c27.js",
+    "controllers/base/sortable_controller": "/assets/controllers/base/sortable_controller-59df99e6.js",
+    "controllers/base/swiper_slide_controller": "/assets/controllers/base/swiper_slide_controller-0d46f345.js",
+    "controllers/base/swiper_youtube_controller": "/assets/controllers/base/swiper_youtube_controller-9c401662.js",
+    "controllers/base/switch_class_controller": "/assets/controllers/base/switch_class_controller-9e885bae.js",
+    "controllers/base/toggle_controller": "/assets/controllers/base/toggle_controller-50dddfc0.js",
+    "controllers/base/tooltip_controller": "/assets/controllers/base/tooltip_controller-2907f2d5.js",
+    "controllers/base/track_controller": "/assets/controllers/base/track_controller-6be01892.js",
+    "controllers/base/turbo_frame_refresh_controller": "/assets/controllers/base/turbo_frame_refresh_controller-a76f00ab.js",
+    "controllers/base/turnstile_handleable_controller": "/assets/controllers/base/turnstile_handleable_controller-069562c7.js",
+    "controllers/base/visible_focus_controller": "/assets/controllers/base/visible_focus_controller-28badbc4.js",
+    "stream_actions/visit": "/assets/stream_actions/visit-13710dee.js",
+    "helpers/altcha": "/assets/helpers/altcha-f075be18.js",
+    "helpers/date-time-picker": "/assets/helpers/date-time-picker-4edaf335.js",
+    "helpers/environment": "/assets/helpers/environment-436bc828.js",
+    "helpers/init-flowbite": "/assets/helpers/init-flowbite-50dc0220.js",
+    "helpers/logger": "/assets/helpers/logger-c6ceafd6.js",
+    "helpers/scrollbar-width": "/assets/helpers/scrollbar-width-5c8d0e85.js",
+    "helpers/turbo-missing": "/assets/helpers/turbo-missing-a8c474a4.js",
+    "helpers/turbo-scroll": "/assets/helpers/turbo-scroll-c44fc75a.js",
+    "helpers/unique_id": "/assets/helpers/unique_id-79e7ef41.js",
+    "states/sortable_state": "/assets/states/sortable_state-4bb1f1f5.js",
+    "controllers/rails_charts/chart_controller": "/assets/controllers/rails_charts/chart_controller-03a3ade7.js",
+    "controllers/rails_charts": "/assets/controllers/rails_charts/index-86978339.js",
+    "controllers/tinymce/editor_controller": "/assets/controllers/tinymce/editor_controller-8bd7120e.js",
+    "controllers/tinymce": "/assets/controllers/tinymce/index-6ec2d5f5.js",
+    "controllers/prism/coder_controller": "/assets/controllers/prism/coder_controller-7cb743f7.js",
+    "controllers/prism": "/assets/controllers/prism/index-ffad4be5.js",
+    "controllers/dotlottie": "/assets/controllers/dotlottie/index-ad768e11.js",
+    "controllers/pdfjs": "/assets/controllers/pdfjs/index-cc06f872.js",
+    "controllers/pdfjs/pdf_viewer_controller": "/assets/controllers/pdfjs/pdf_viewer_controller-9476d1cb.js",
+    "controllers/d3/data_walls/korea_map_data_wall_controller": "/assets/controllers/d3/data_walls/korea_map_data_wall_controller-98e50c7a.js",
+    "controllers/d3/galaxy_controller": "/assets/controllers/d3/galaxy_controller-b148e3d1.js",
+    "controllers/d3/galaxy_map_controller": "/assets/controllers/d3/galaxy_map_controller-86e4fa44.js",
+    "controllers/d3": "/assets/controllers/d3/index-d86b9469.js",
+    "controllers/infinitegrid": "/assets/controllers/infinitegrid/index-41490346.js",
+    "controllers/infinitegrid/infinitegrid_controller": "/assets/controllers/infinitegrid/infinitegrid_controller-4a8e736a.js"
+  }
+}</script>
+<link rel="modulepreload" href="https://codefor.kr/assets/application-41514ba3.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/application-e1574339.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/turbo.min-3a2e143f.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/stimulus.min-4b1e420e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/stimulus-loading-1fc53fe7.js">
+<link rel="modulepreload" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.5.1/flowbite.turbo.min.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/flowbite-datepicker-a23ac4e2.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:@popperjs/core@2.11.8/lib/index.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@rails--request-10d39805.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/js-cookie-fd674fab.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:lodash@4.17.21/debounce.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:lodash@4.17.21/throttle.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/sortablejs-d7a36fd1.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@melloware--coloris-d585dbfe.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:swiper@11.1.4/swiper-bundle.mjs">
+<link rel="modulepreload" href="https://codefor.kr/assets/altcha-37840c54.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/altcha/i18n/ko.min-142e1497.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/altcha/i18n/ja.min-784624d1.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/echarts.min-e5de901a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/echarts.themeloader-50cf3692.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/echarts/theme/dark-6a9fac4a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce-450d5c8b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce--themes--silver-1fea5d9e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce--icons--default-6d131c2a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/image-d0be9c42.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/advlist/plugin.min-d3d323f5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/lists/plugin.min-a184cd90.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/autolink/plugin.min-70ad882e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/link/plugin.min-c02b71e7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/charmap/plugin.min-3e3aadd7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/print/plugin.min-f9bb9b42.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/preview/plugin.min-7d7142f2.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/anchor/plugin.min-5129f096.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/code/plugin.min-389dd351.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/fullscreen/plugin.min-24092773.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/help/plugin.min-0f79632d.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/hr/plugin.min-7dbb00e6.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/insertdatetime/plugin.min-5aa6caaa.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/media/plugin.min-10e43538.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/paste/plugin.min-cfab4851.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/searchreplace/plugin.min-e2dccf1e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/table/plugin.min-b822dcbb.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/visualblocks/plugin.min-10225e69.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/tinymce_plugins/wordcount/plugin.min-eaa5f185.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/index.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/extensions/commands.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/extensions/matchBrackets/highlight.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/markup.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/yaml.js">
+<link rel="modulepreload" href="https://ga.jspm.io/npm:prism-code-editor@3.3.2/dist/prism/languages/markdown.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@lottiefiles--dotlottie-web-abb78f30.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/pdfjs-dist-6decc569.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-1337d2d9.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-array-dcc21360.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-axis-85fa0849.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-brush-fbd8b7f4.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-chord-fb006d87.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-color-105ebb5b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-contour-f8d81ff4.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-delaunay-42a3bc59.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-dispatch-79ecb6ed.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-drag-1641fd0c.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-dsv-0a36d31b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-ease-7cefd8e9.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-fetch-72a3c2eb.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-force-5d1545f7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-format-89ab33aa.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-geo-85871f22.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-hierarchy-e550ac50.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-interpolate-46876ef7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-path-371afee5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-polygon-d04ed820.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-quadtree-6793b4ae.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-random-2f15e44b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-scale-541e3be4.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-scale-chromatic-194b7e0a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-selection-6536d848.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-shape-568effaa.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-time-0c5ea8a2.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-time-format-7c088be1.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-timer-82d936b5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-transition-e0ccac69.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3-zoom-f8d842d9.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/delaunator-f7d3bb2a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/internmap-1a2ce1e6.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/robust-predicates-ee031280.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/d3fc-376d4899.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/topojson-client-66f53402.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@floating-ui--core-0872baa7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@floating-ui--utils-fe7f1719.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@floating-ui--dom-c4cdc664.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/@floating-ui--utils--dom-bd33a6ca.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/exif-js-725d7651.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.10.1/dist/infinitegrid.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@cfcs/core@0.0.5/dist/cfcs.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/children-differ@1.0.1/dist/children-differ.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/component@3.0.4/dist/component.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/grid@1.14.2/dist/grid.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/imready@1.4.1/dist/imready.esm.js">
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/@egjs/list-differ@1.0.1/dist/list-differ.esm.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/digitalsociety/sidebar_controller-93ce818f.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/woorion/countdown_controller-9f52c21d.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/active_link_controller-cab1a9de.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/alert_controller-dc396a75.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/application_modal_controller-ac24c1f5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/async_download_controller-701eae1c.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/author_comment_controller-320ab23b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/author_search_controller-2c0563ef.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/auto_show_controller-c865d73a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/bulk_single_select_action_controller-f72418ff.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/campaigns_widget_controller-7bd67b82.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/character_counter_controller-ca7e8ef7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/chatbot/happytalk_controller-3e4d7058.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/checkbox_select_all_controller-15ba0a0b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/checkbox_toggle_all_controller-31be6cad.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/checked_summary_controller-e75cc81a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/checked_toggle_controller-7f96bb26.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/clipboard_controller-4b0a3789.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/color_preview_controller-11f7c853.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/datepicker_controller-55a651b5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/dialog_modal_controller-1fb96172.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/dropdown_controller-4501f85c.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/file_size_controller-34eb5310.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/file_title_controller-330fb2d7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/flash_controller-6f8b6f4f.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/form_clone_controller-0f6a1eef.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/form_meta_context_controller-32239323.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/form_preview_controller-ea73a7e5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/form_state_controller-98731a63.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/form_submit_controller-688fbe7e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/hani/comments_embed_controller-f00db1e7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/height_adjustment_controller-63416cfb.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/iframe_resize_controller-8aa5f355.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/index-160e205b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/label_controller-2a6d862e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/limited_checkbox_controller-63b86553.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/maps/kakao_address_controller-c46933b6.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/maps/kakao_controller-fd817442.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/move_page_controller-cf41e5c8.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/move_turbo_frame_controller-95ae6153.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/nested_fields_controller-0ef88a7f.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/nested_form_controller-04c0e76c.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/parent_child_select_options_controller-6b094239.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/popup_controller-a70c7d2f.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/preview_tabs_controller-c2ef88ca.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/print_frame_controller-b56d424b.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/prompt_confirmation_controller-e18f8a9a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/radio_binding_controller-5ad26fac.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/remove_element_controller-bd6fb5fc.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/scroll_to_controller-1dec7eb1.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/scroll_to_top_controller-a5ca9610.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/selected_scroll_to_controller-51e1a6b7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/selected_toggle_controller-a86168ad.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/selected_update_controller-592b41b5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/shadow_controller-08b3c487.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/share_controller-3cda5b3d.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/sidebar_controller-8fc05c27.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/sortable_controller-59df99e6.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/swiper_slide_controller-0d46f345.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/swiper_youtube_controller-9c401662.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/switch_class_controller-9e885bae.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/toggle_controller-50dddfc0.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/tooltip_controller-2907f2d5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/track_controller-6be01892.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/turbo_frame_refresh_controller-a76f00ab.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/turnstile_handleable_controller-069562c7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/base/visible_focus_controller-28badbc4.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/stream_actions/visit-13710dee.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/altcha-f075be18.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/date-time-picker-4edaf335.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/environment-436bc828.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/init-flowbite-50dc0220.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/logger-c6ceafd6.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/scrollbar-width-5c8d0e85.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/turbo-missing-a8c474a4.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/turbo-scroll-c44fc75a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/helpers/unique_id-79e7ef41.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/states/sortable_state-4bb1f1f5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/rails_charts/chart_controller-03a3ade7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/rails_charts/index-86978339.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/tinymce/editor_controller-8bd7120e.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/tinymce/index-6ec2d5f5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/prism/coder_controller-7cb743f7.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/prism/index-ffad4be5.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/dotlottie/index-ad768e11.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/pdfjs/index-cc06f872.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/pdfjs/pdf_viewer_controller-9476d1cb.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/d3/data_walls/korea_map_data_wall_controller-98e50c7a.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/d3/galaxy_controller-b148e3d1.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/d3/galaxy_map_controller-86e4fa44.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/d3/index-d86b9469.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/infinitegrid/index-41490346.js">
+<link rel="modulepreload" href="https://codefor.kr/assets/controllers/infinitegrid/infinitegrid_controller-4a8e736a.js">
+<script type="module">import "application"
+import "controllers/rails_charts"
+import "controllers/tinymce"
+import "controllers/prism"
+import "controllers/dotlottie"
+import "controllers/pdfjs"
+import "controllers/d3"
+import "controllers/infinitegrid"
+import "controllers/application"</script>
+
+
+    <script src="./24년 9월_files/kakao.min.js.다운로드" integrity="sha384-mXVrIX2T/Kszp6Z0aEWaA8Nm7J6/ZeWXbL8UpGRjKwWe56Srd/iyNmWMBhcItAjH" crossorigin="anonymous"></script>
+      <script src="./24년 9월_files/sdk.js.다운로드" type="text/javascript"></script><script charset="UTF-8" src="./24년 9월_files/kakao.js.다운로드"></script><script charset="UTF-8" src="./24년 9월_files/services.js.다운로드"></script><script charset="UTF-8" src="./24년 9월_files/clusterer.js.다운로드"></script><script charset="UTF-8" src="./24년 9월_files/drawing.js.다운로드"></script>
+    <script src="./24년 9월_files/postcode.v2.js.다운로드"></script>
+    <meta name="naver-site-verification" content="ce3e04dab995768829a895b877c00d4b703aa9a5">
+
+<!-- 2026-04 google translate widget -->
+<script src="./24년 9월_files/element.js.다운로드"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="./24년 9월_files/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="./24년 9월_files/m=el_main"></script>
+    
+  <style id="__altcha-css">@keyframes overlay-slidein{to{opacity:1;top:50%}}@keyframes altcha-spinner{to{transform:rotate(360deg)}}.altcha{background:var(--altcha-color-base, transparent);border:var(--altcha-border-width, 1px) solid var(--altcha-color-border, #a0a0a0);border-radius:var(--altcha-border-radius, 3px);color:var(--altcha-color-text, currentColor);display:flex;flex-direction:column;max-width:var(--altcha-max-width, 260px);position:relative}.altcha:focus-within{border-color:var(--altcha-color-border-focus, currentColor)}.altcha[data-floating]{background:var(--altcha-color-base, white);display:none;filter:drop-shadow(3px 3px 6px rgba(0,0,0,.2));left:-100%;position:fixed;top:-100%;width:var(--altcha-max-width, 260px);z-index:999999}.altcha[data-floating=top] .altcha-anchor-arrow{border-bottom-color:transparent;border-top-color:var(--altcha-color-border, #a0a0a0);bottom:-12px;top:auto}.altcha[data-floating=bottom]:focus-within::after{border-bottom-color:var(--altcha-color-border-focus, currentColor)}.altcha[data-floating=top]:focus-within::after{border-top-color:var(--altcha-color-border-focus, currentColor)}.altcha[data-floating]:not([data-state=unverified]){display:block}.altcha-anchor-arrow{border:6px solid transparent;border-bottom-color:var(--altcha-color-border, #a0a0a0);content:"";height:0;left:12px;position:absolute;top:-12px;width:0}.altcha-main{align-items:center;display:flex;gap:.4rem;padding:.7rem;position:relative}.altcha-code-challenge{background:var(--altcha-color-base, white);border:1px solid var(--altcha-color-border-focus, currentColor);border-radius:var(--altcha-border-radius, 3px);filter:drop-shadow(3px 3px 6px rgba(0,0,0,.2));padding:.5rem;position:absolute;top:2.5rem;z-index:9999999}.altcha-code-challenge>form{display:flex;flex-direction:column;gap:.5rem}.altcha-code-challenge-input{border:1px solid currentColor;border-radius:3px;box-sizing:border-box;outline:0;font-size:16px;padding:.35rem;width:220px}.altcha-code-challenge-input:focus{outline:2px solid color-mix(in srgb,var(--altcha-color-active, #1D1DC9) 20%,transparent)}.altcha-code-challenge-input:disabled{opacity:.7}.altcha-code-challenge-image{background-color:#fff;border:1px solid currentColor;border-radius:3px;box-sizing:border-box;object-fit:contain;height:50px;width:220px}.altcha-code-challenge-audio,.altcha-code-challenge-reload{background:color-mix(in srgb,var(--altcha-color-text, currentColor) 10%,transparent);border:0;border-radius:3px;color:var(--altcha-color-text, currentColor);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:.35rem}.altcha-code-challenge-audio:disabled,.altcha-code-challenge-reload:disabled,.altcha-code-challenge-verify:disabled{opacity:.7;pointer-events:none}.altcha-code-challenge-audio>*,.altcha-code-challenge-reload>*{height:20px;width:20px}.altcha-code-challenge-buttons{display:flex;justify-content:space-between}.altcha-code-challenge-buttons-left{display:flex;gap:.25rem}.altcha-code-challenge-verify{align-items:center;background:var(--altcha-color-active, #1D1DC9);border:0;border-radius:3px;color:#fff;cursor:pointer;display:flex;gap:.5rem;font-size:100%;padding:.35rem 1rem}.altcha-code-challenge-arrow{border:6px solid transparent;border-bottom-color:var(--altcha-color-border, currentColor);content:"";height:0;left:.15rem;position:absolute;top:-12px;width:0}.altcha[data-floating=top] .altcha-code-challenge{top:-150px}.altcha[data-floating=top] .altcha-code-challenge-arrow{border-bottom-color:transparent;border-top-color:var(--altcha-color-border, currentColor);bottom:-12px;top:auto}.altcha-label{cursor:pointer;flex-grow:1}.altcha-logo{color:currentColor!important;opacity:.7}.altcha-footer:hover,.altcha-logo:hover{opacity:1}.altcha-error{color:var(--altcha-color-error-text, #f23939);display:flex;font-size:.85rem;gap:.3rem;padding:0 .7rem .7rem}.altcha-footer{align-items:center;background-color:var(--altcha-color-footer-bg, transparent);display:flex;font-size:.75rem;opacity:.7;justify-content:end;padding:.2rem .7rem}.altcha-footer a{color:currentColor}.altcha-checkbox{display:flex;align-items:center;justify-content:center;height:24px;position:relative;width:24px}.altcha-checkbox .altcha-spinner{bottom:0;left:0;position:absolute;right:0;top:0}.altcha-checkbox input{width:18px;height:18px;margin:0}.altcha-checkbox-verifying input{appearance:none;opacity:0;pointer-events:none}.altcha-spinner{animation:altcha-spinner .75s infinite linear;transform-origin:center}.altcha-overlay{--altcha-color-base:#fff;--altcha-color-text:#000;animation:overlay-slidein .5s forwards;display:flex;flex-direction:column;gap:.5rem;left:50%;width:260px;opacity:0;position:fixed;top:45%;transform:translate(-50%,-50%)}.altcha-overlay-backdrop{background:rgba(0,0,0,.5);bottom:0;display:none;left:0;position:fixed;right:0;top:0;z-index:99999999}.altcha-overlay-close-button{align-self:flex-end;background:0 0;border:0;padding:.25rem;cursor:pointer;color:currentColor;font-size:130%;line-height:1;opacity:.7}@media (max-height:450px){.altcha-overlay{top:10%!important;transform:translate(-50%,0)}}</style><style type="text/css">d3fc-canvas,d3fc-svg{position:relative;display:block}d3fc-canvas>canvas,d3fc-svg>svg{position:absolute;height:100%;width:100%}d3fc-svg>svg{overflow:visible}</style><style type="text/css">d3fc-group.cartesian-chart{width:100%;height:100%;overflow:hidden;display:grid;display:-ms-grid;grid-template-columns:minmax(1em,max-content) auto 1fr auto minmax(1em,max-content);-ms-grid-columns:minmax(1em,max-content) auto 1fr auto minmax(1em,max-content);grid-template-rows:minmax(1em,max-content) auto 1fr auto minmax(1em,max-content);-ms-grid-rows:minmax(1em,max-content) auto 1fr auto minmax(1em,max-content);}
+d3fc-group.cartesian-chart>.top-label{align-self:center;-ms-grid-column-align:center;justify-self:center;-ms-grid-row-align:center;grid-column:3;-ms-grid-column:3;grid-row:1;-ms-grid-row:1;}
+d3fc-group.cartesian-chart>.top-axis{height:2em;grid-column:3;-ms-grid-column:3;grid-row:2;-ms-grid-row:2;}
+d3fc-group.cartesian-chart>.left-label{align-self:center;-ms-grid-column-align:center;justify-self:center;-ms-grid-row-align:center;grid-column:1;-ms-grid-column:1;grid-row:3;-ms-grid-row:3;}
+d3fc-group.cartesian-chart>.left-axis{width:3em;grid-column:2;-ms-grid-column:2;grid-row:3;-ms-grid-row:3;}
+d3fc-group.cartesian-chart>.plot-area{overflow:hidden;grid-column:3;-ms-grid-column:3;grid-row:3;-ms-grid-row:3;}
+d3fc-group.cartesian-chart>.right-axis{width:3em;grid-column:4;-ms-grid-column:4;grid-row:3;-ms-grid-row:3;}
+d3fc-group.cartesian-chart>.right-label{align-self:center;-ms-grid-column-align:center;justify-self:center;-ms-grid-row-align:center;grid-column:5;-ms-grid-column:5;grid-row:3;-ms-grid-row:3;}
+d3fc-group.cartesian-chart>.bottom-axis{height:2em;grid-column:3;-ms-grid-column:3;grid-row:4;-ms-grid-row:4;}
+d3fc-group.cartesian-chart>.bottom-label{align-self:center;-ms-grid-column-align:center;justify-self:center;-ms-grid-row-align:center;grid-column:3;-ms-grid-column:3;grid-row:5;-ms-grid-row:5;}
+d3fc-group.cartesian-chart>.y-label{display:flex;transform:rotate(-90deg);width:1em;white-space:nowrap;justify-content:center;}</style><meta name="rails-action" content="show"><title>24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기 | 코드포코리아 (Code for Korea)</title><meta name="description" content="안심이 프로젝트는 올해 4월과 6월 두 번의 밋앤핵을 통해 다양한 재난 경험과 인식을 공유하며, 재난 정보 서비스의 필요성과 방향성을 함께 고민하고 있습니다.  지난..."><meta property="og:title" content="24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기"><meta property="og:description" content="안심이 프로젝트는 올해 4월과 6월 두 번의 밋앤핵을 통해 다양한 재난 경험과 인식을 공유하며, 재난 정보 서비스의 필요성과 방향성을 함께 고민하고 있습니다.  지난..."><meta property="og:image" content="https://codefor.kr/_storage_/public/100/iknkmsv0r026hnllep2kc43zm2g0"><meta name="twitter:title" content="24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기"><meta name="twitter:description" content="안심이 프로젝트는 올해 4월과 6월 두 번의 밋앤핵을 통해 다양한 재난 경험과 인식을 공유하며, 재난 정보 서비스의 필요성과 방향성을 함께 고민하고 있습니다.  지난..."><meta name="rails-controller" content="posts"><meta name="csrf-token" content="O3TwxrkQwZzZBk5A2-5BmHb1zHi1gkAU_zTZJQ7JKQb8W23a5pTERqgd1cg3DrLcTBPejbdH_Wyjjju09adNhA"></head>
+  <body class="custom-theme">
+  
+      <noscript>
+        <iframe height="0" style="display: none; visibility: hidden" src="./24년 9월_files/ns.html" width="0"></iframe>
+      </noscript>
+    <div class="relative mx-auto max-w-screen-lg">
+      <div id="application-flash" class="fixed right-0 top-2 z-global-application-flash w-screen px-4" data-turbo-temporary="">
+</div>
+
+    </div>
+    
+      <header class="sticky top-0 z-global-application-menu bg-gray-900 is-application-main-only:hidden">
+    
+    <nav class="border-b border-gray-200 bg-white">
+    <div class="application_head">
+      <!-- 
+2026-04 google translate widget 
+  https://gist.github.com/tedw/fac000d3561ac2bb1f52a74fb2af5ead
+  https://www.circulaw.nl
+-->
+ <div data-controller="local--google-translate" id="google-translate-wrapper" data-turbo-permanent="">
+    <div data-local--google-translate-target="modal" class="bg-white fixed p-5 right-4 rounded-lg shadow-xl top-20 z-global-application-menu hidden" style="max-width:320px;">
+      <button data-action="click-&gt;local--google-translate#close" class="float-right bg-transparent border-none text-xl cursor-pointer">✕</button>
+      <h3 class="text-lg font-semibold mb-2">Let Google translate this website</h3>
+      <p class="text-sm italic py-4">
+        자동 번역은 오류를 책임지지 않습니다.
+      </p>
+      <div id="google_translate_element" data-local--google-translate-target="widget"></div>
+    </div>
+  </div>
+
+  <script type="text/stimulus-controllers">
+    (function(localControllers) {
+      localControllers["google-translate"] = class extends Controller {
+        static targets = ["modal", "widget"];
+
+        connect() {
+          this.triggerEl = [...document.querySelectorAll("nav a")].find(a => a.textContent.trim() === "🌐");
+          if (this.triggerEl) {
+            this.boundHandleClick = this.handleClick.bind(this);
+            this.triggerEl.addEventListener("click", this.boundHandleClick);
+          }
+
+          this.boundReapply = this.reapplyTranslation.bind(this);
+          document.addEventListener("turbo:load", this.boundReapply);
+        }
+
+        disconnect() {
+          if (this.triggerEl) {
+            this.triggerEl.removeEventListener("click", this.boundHandleClick);
+          }
+          document.removeEventListener("turbo:load", this.boundReapply);
+        }
+
+        handleClick(e) {
+          e.preventDefault();
+          this.open();
+        }
+
+        open() {
+          this.modalTarget.classList.remove("hidden");
+          if (window.google) {
+            new google.translate.TranslateElement({ pageLanguage: "ko", includedLanguages: "ko,en,ja,zh-CN,zh-TW" }, this.widgetTarget.id);
+          }
+        }
+
+        close() {
+          this.modalTarget.classList.add("hidden");
+        }
+
+        reapplyTranslation() {
+          const cookie = document.cookie.split(";").find(c => c.trim().startsWith("googtrans="));
+          if (!cookie) return;
+
+          const lang = cookie.trim().split("=")[1]?.split("/")[2];
+          if (!lang || lang === "ko") return;
+
+          setTimeout(() => {
+            const select = document.querySelector(".goog-te-combo");
+            if (select) {
+              select.value = lang;
+              select.dispatchEvent(new Event("change"));
+            }
+          }, 300);
+        }
+      };
+    })(localControllers);
+  </script>
+    </div>
+
+  <div class="mix-container flex flex-wrap items-center justify-between py-2.5 md:py-0">
+    <button data-collapse-toggle="navbar-dropdown" type="button" class="mr-4 inline-flex items-center justify-center rounded-lg py-2 text-sm text-gray-500 md:hidden" aria-controls="navbar-dropdown" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+      </svg>
+    </button>
+
+      <div class="flex flex-1 items-center xl:pl-1">
+        <a href="https://codefor.kr/">
+            <img class="mr-4 h-7 md:h-8" alt="코드포코리아 (Code for Korea)" src="./24년 9월_files/19755d27-1790-460b-a901-77bb539d71c8.png" loading="lazy">
+        </a>
+      </div>
+
+    <ul class="flex items-center gap-1 md:hidden">
+      <li data-controller="dropdown">
+  <div data-action="click-&gt;dropdown#toggle click@window-&gt;dropdown#hide touchend@window-&gt;dropdown#hide" data-dropdown-target="button" aria-expanded="false" class="mt-1.5 block rounded text-gray-500 hover:text-primary md:mx-1 md:mt-1 md:border-0 md:p-0">
+    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" role="img" aria-labelledby="ajnvydh3r0hgs6ctpc1v28o7ipp8kpo6" class="h-6 w-6"><title id="ajnvydh3r0hgs6ctpc1v28o7ipp8kpo6">통합검색</title>
+  <mask id="mix-svgapp--assets--images--icons--header--search_off_svg__jdcjfbkbga" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+    <path fill="currentColor" d="M0 .5h24v24H0z"></path>
+  </mask>
+  <g mask="url(#mix-svgapp--assets--images--icons--header--search_off_svg__jdcjfbkbga)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 10a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0zm-.72 5.78a7.5 7.5 0 1 1 1.359-1.47l5.775 5.776A1 1 0 1 1 20 21.5l-5.72-5.72z" fill="currentColor"></path>
+  </g>
+</svg></span>
+  </div>
+  <div class="hidden" data-controller="visible-focus" data-dropdown-target="popup">
+    <div class="fixed left-0 top-0 z-global-application-modal h-screen w-screen bg-black bg-opacity-40" data-dropdown-target="backdrop" data-turbo-temporary="">
+      <div class="fixed left-0 top-0 w-screen bg-white">
+        <div class="border-t border-gray-300 px-4 py-8 text-center">
+          <form action="https://codefor.kr/search_entries" accept-charset="UTF-8" method="get">
+            <input data-visible-focus-target="focusable" class="w-full !h-10 px-4 border border-gray-300 rounded text-md md:text-sm text-gray-500 focus:border-2 focus:ring-primary focus:border-primary md:w-[200px] lg:w-[288px]" type="search" name="q[term]">
+            <input type="submit" name="commit" value="Search" class="mt-2 h-10 w-full cursor-pointer rounded bg-primary text-sm font-bold text-primary_foreground hover:brightness-95 md:ml-2 md:mt-0 md:w-[120px]" data-disable-with="Search">
+</form>        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="gap flex items-center gap-2">
+      <div class="relative">
+        <a class="flex cursor-pointer gap-1 rounded py-2 text-primary hover:bg-gray-100 hover:bg-transparent md:border-0 md:p-0 md:hover:bg-transparent md:hover:brightness-90" href="https://codefor.kr/dashboard">
+          <img class="object-fit h-6 w-6 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHZlcnNpb249IjEuMSI+PHJlY3QgZmlsbD0iI2NhOGEwNCIgY3g9IjMyIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGN5PSIzMiIgcj0iMzIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyBsaW5lLWhlaWdodDogMTsiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNDAwIiBkeT0iLjFlbSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iI2ZmZmZmZiI+44S5PC90ZXh0Pjwvc3ZnPg==">
+          <span class="hidden md:block">ㄹ</span>
+</a>      </div>
+  </div>
+</li>
+
+    </ul>
+
+    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+      <ul id="accordion-collapse" data-accordion="collapse" class="mb-4 mt-2 items-center rounded-lg border border-gray-100 bg-gray-50 py-2 font-medium md:mb-0 md:mt-0 md:flex md:border-0 md:bg-white md:p-0 md:py-0">
+              <li class="group/navbar relative last:p-0 md:p-1 md:py-5 md:text-center last:md:pl-4 lg:px-4">
+                <div class="gap flex items-center justify-between gap-2" id="accordion-collapse-heading-2821">
+                  <a class="block bg-transparent px-4 py-1 hover:text-primary md:p-0" href="https://codefor.kr/posts/njt0yOw#">코드포코리아</a>
+                    <button type="button" data-accordion-target="#accordion-collapse-body-2821" aria-expanded="false" aria-controls="accordion-collapse-body-2821" class="bg-transparent px-4 py-2 text-gray-600 md:p-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="adq6td8zmyxpltcum5uxw2ttc9gycwt9" class="h-2.5 flex-shrink-0 fill-current"><title id="adq6td8zmyxpltcum5uxw2ttc9gycwt9">링크</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
+                    </button>
+                </div>
+                  <ul id="accordion-collapse-body-2821" class="z-20 hidden min-w-[112px] border-gray-200 bg-gray-100 py-1 pl-4 text-sm text-gray-500 md:absolute md:mt-4 md:rounded-b md:border md:bg-white md:pl-0 md:before:absolute md:before:inset-x-0 md:before:top-0 md:before:block md:before:h-0.5 md:before:bg-primary md:group-hover/navbar:block" aria-labelledby="accordion-collapse-heading-2821">
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/pages/597">코드포코리아 소개</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/action">코드포코리아가 한 일</a>
+                        </li>
+                  </ul>
+              </li>
+              <li class="group/navbar relative last:p-0 md:p-1 md:py-5 md:text-center last:md:pl-4 lg:px-4">
+                <div class="gap flex items-center justify-between gap-2" id="accordion-collapse-heading-2891">
+                  <a class="block bg-transparent px-4 py-1 hover:text-primary md:p-0" href="https://codefor.kr/posts/njt0yOw#">소식</a>
+                    <button type="button" data-accordion-target="#accordion-collapse-body-2891" aria-expanded="false" aria-controls="accordion-collapse-body-2891" class="bg-transparent px-4 py-2 text-gray-600 md:p-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="asud2fygccz2mueu9xbth1xbqky1dhwj" class="h-2.5 flex-shrink-0 fill-current"><title id="asud2fygccz2mueu9xbth1xbqky1dhwj">링크</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
+                    </button>
+                </div>
+                  <ul id="accordion-collapse-body-2891" class="z-20 hidden min-w-[112px] border-gray-200 bg-gray-100 py-1 pl-4 text-sm text-gray-500 md:absolute md:mt-4 md:rounded-b md:border md:bg-white md:pl-0 md:before:absolute md:before:inset-x-0 md:before:top-0 md:before:block md:before:h-0.5 md:before:bg-primary md:group-hover/navbar:block" aria-labelledby="accordion-collapse-heading-2891">
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/meet-hack">밋앤핵</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/news">뉴스</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/info">정보 공유</a>
+                        </li>
+                  </ul>
+              </li>
+              <li class="group/navbar relative last:p-0 md:p-1 md:py-5 md:text-center last:md:pl-4 lg:px-4">
+                <div class="gap flex items-center justify-between gap-2" id="accordion-collapse-heading-2890">
+                  <a class="block bg-transparent px-4 py-1 hover:text-primary md:p-0" href="https://codefor.kr/posts/njt0yOw#">프로젝트</a>
+                    <button type="button" data-accordion-target="#accordion-collapse-body-2890" aria-expanded="false" aria-controls="accordion-collapse-body-2890" class="bg-transparent px-4 py-2 text-gray-600 md:p-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="akszx2nfotajgmqy2wlwp4byydb18wc3" class="h-2.5 flex-shrink-0 fill-current"><title id="akszx2nfotajgmqy2wlwp4byydb18wc3">링크</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
+                    </button>
+                </div>
+                  <ul id="accordion-collapse-body-2890" class="z-20 hidden min-w-[112px] border-gray-200 bg-gray-100 py-1 pl-4 text-sm text-gray-500 md:absolute md:mt-4 md:rounded-b md:border md:bg-white md:pl-0 md:before:absolute md:before:inset-x-0 md:before:top-0 md:before:block md:before:h-0.5 md:before:bg-primary md:group-hover/navbar:block" aria-labelledby="accordion-collapse-heading-2890">
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/pages/599">프로젝트 가이드</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/project">프로젝트 목록</a>
+                        </li>
+                  </ul>
+              </li>
+              <li class="group/navbar relative last:p-0 md:p-1 md:py-5 md:text-center last:md:pl-4 lg:px-4">
+                <div class="gap flex items-center justify-between gap-2" id="accordion-collapse-heading-2707">
+                  <a class="block bg-transparent px-4 py-1 hover:text-primary md:p-0" href="https://codefor.kr/pages/civic-tech-archive">시빅테크 아카이브</a>
+                    <button type="button" data-accordion-target="#accordion-collapse-body-2707" aria-expanded="false" aria-controls="accordion-collapse-body-2707" class="bg-transparent px-4 py-2 text-gray-600 md:p-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="alngqt21zbiyv2byyejfyl9a65a4ipl6" class="h-2.5 flex-shrink-0 fill-current"><title id="alngqt21zbiyv2byyejfyl9a65a4ipl6">링크</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg>
+                    </button>
+                </div>
+                  <ul id="accordion-collapse-body-2707" class="z-20 hidden min-w-[112px] border-gray-200 bg-gray-100 py-1 pl-4 text-sm text-gray-500 md:absolute md:mt-4 md:rounded-b md:border md:bg-white md:pl-0 md:before:absolute md:before:inset-x-0 md:before:top-0 md:before:block md:before:h-0.5 md:before:bg-primary md:group-hover/navbar:block" aria-labelledby="accordion-collapse-heading-2707">
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/civic-tech-projects">프로젝트 아카이브</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/boards/museum">시빅테크 뮤지엄</a>
+                        </li>
+                        <li class="text-left">
+                          <a class="block whitespace-nowrap break-words px-2 py-1 text-gray-900 hover:underline md:px-4 md:hover:bg-transparent" href="https://codefor.kr/surveys/questionnaires/7b742f91a003/feedback">프로젝트 제보</a>
+                        </li>
+                  </ul>
+              </li>
+              <li class="group/navbar relative last:p-0 md:p-1 md:py-5 md:text-center last:md:pl-4 lg:px-4">
+                <div class="gap flex items-center justify-between gap-2" id="accordion-collapse-heading-6048">
+                  <a data-turbo-frame="_top" class="block bg-transparent px-4 py-1 hover:text-primary md:p-0" href="https://codefor.kr/posts/njt0yOw">🌐</a>
+                </div>
+              </li>
+        <ul class="hidden items-center gap-1 md:flex">
+          <li data-controller="dropdown">
+  <div data-action="click-&gt;dropdown#toggle click@window-&gt;dropdown#hide touchend@window-&gt;dropdown#hide" data-dropdown-target="button" aria-expanded="false" class="mt-1.5 block rounded text-gray-500 hover:text-primary md:mx-1 md:mt-1 md:border-0 md:p-0">
+    <span class="inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" role="img" aria-labelledby="ali24t56zx5j9k1w1cn0y3j659u35zx1" class="h-6 w-6"><title id="ali24t56zx5j9k1w1cn0y3j659u35zx1">통합검색</title>
+  <mask id="mix-svgapp--assets--images--icons--header--search_off_svg__jdcjfbkbga" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="25">
+    <path fill="currentColor" d="M0 .5h24v24H0z"></path>
+  </mask>
+  <g mask="url(#mix-svgapp--assets--images--icons--header--search_off_svg__jdcjfbkbga)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 10a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0zm-.72 5.78a7.5 7.5 0 1 1 1.359-1.47l5.775 5.776A1 1 0 1 1 20 21.5l-5.72-5.72z" fill="currentColor"></path>
+  </g>
+</svg></span>
+  </div>
+  <div class="hidden" data-controller="visible-focus" data-dropdown-target="popup">
+    <div class="fixed left-0 top-0 z-global-application-modal h-screen w-screen bg-black bg-opacity-40" data-dropdown-target="backdrop" data-turbo-temporary="">
+      <div class="fixed left-0 top-0 w-screen bg-white">
+        <div class="border-t border-gray-300 px-4 py-8 text-center">
+          <form action="https://codefor.kr/search_entries" accept-charset="UTF-8" method="get">
+            <input data-visible-focus-target="focusable" class="w-full !h-10 px-4 border border-gray-300 rounded text-md md:text-sm text-gray-500 focus:border-2 focus:ring-primary focus:border-primary md:w-[200px] lg:w-[288px]" type="search" name="q[term]">
+            <input type="submit" name="commit" value="Search" class="mt-2 h-10 w-full cursor-pointer rounded bg-primary text-sm font-bold text-primary_foreground hover:brightness-95 md:ml-2 md:mt-0 md:w-[120px]" data-disable-with="Search">
+</form>        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li>
+  <div class="gap flex items-center gap-2">
+      <div class="relative">
+        <a class="flex cursor-pointer gap-1 rounded py-2 text-primary hover:bg-gray-100 hover:bg-transparent md:border-0 md:p-0 md:hover:bg-transparent md:hover:brightness-90" href="https://codefor.kr/dashboard">
+          <img class="object-fit h-6 w-6 rounded-full" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHZlcnNpb249IjEuMSI+PHJlY3QgZmlsbD0iI2NhOGEwNCIgY3g9IjMyIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGN5PSIzMiIgcj0iMzIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyBsaW5lLWhlaWdodDogMTsiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNDAwIiBkeT0iLjFlbSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iI2ZmZmZmZiI+44S5PC90ZXh0Pjwvc3ZnPg==">
+          <span class="hidden md:block">ㄹ</span>
+</a>      </div>
+  </div>
+</li>
+
+        </ul>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+
+    <main class="md:min-h-60vh ">
+  
+      <section class="mix-container container flex gap-4 py-8">
+  <section class="mx-auto w-full max-w-4xl">
+    <div class="my-8" data-controller="print-frame" data-print-frame-url-value="/posts/njt0yOw?print=1">
+      <nav class="mb-4 flex print:hidden" aria-label="Breadcrumb">
+  <ol class="inline-flex items-center space-x-1 md:space-x-3">
+    <li>
+      <div class="flex items-center">
+        <a class="text-sm font-medium text-gray-700 hover:text-primary" href="https://codefor.kr/boards/news">
+          뉴스
+</a>      </div>
+    </li>
+  </ol>
+</nav>
+<div class="flex justify-between">
+  <h2 class="break-all text-3xl font-semibold tracking-tight text-gray-900 md:text-4xl">
+    24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기
+  </h2>
+</div>
+<div class="gap my-4 flex items-center justify-between gap-4 text-sm text-gray-500 print:hidden">
+  <a data-turbo-frame="_top" class="gap flex flex-row items-start justify-center gap-2" href="https://codefor.kr/posts/njt0yOw#">
+    <div class="flex whitespace-nowrap">
+      <img class="h-10 w-10 rounded-full object-cover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHZlcnNpb249IjEuMSI+PHJlY3QgZmlsbD0iI2NhOGEwNCIgY3g9IjMyIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGN5PSIzMiIgcj0iMzIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyBsaW5lLWhlaWdodDogMTsiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNDAwIiBkeT0iLjFlbSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iI2ZmZmZmZiI+44S5PC90ZXh0Pjwvc3ZnPg==">
+    </div>
+    <div class="flex flex-col whitespace-nowrap">
+      <div class="font-semibold">ㄹ</div>
+      <div class="gap flex flex-row gap-2 whitespace-nowrap text-sm font-light">
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="a7cq3vsxlrdp0aurys2g5s8xjz90hhpv" class="inline h-3 flex-shrink-0 fill-gray-500"><title id="a7cq3vsxlrdp0aurys2g5s8xjz90hhpv">발행일</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path></svg> 2024-09-22</span>
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" role="img" aria-labelledby="aokz58blfbwp6yzl3xcglyaizpypijzv" class="inline h-3 flex-shrink-0 fill-gray-500"><title id="aokz58blfbwp6yzl3xcglyaizpypijzv">조회수</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"></path></svg> 605</span>
+      </div>
+    </div>
+</a>  <div class="flex items-center justify-center space-x-4 print:hidden">
+      <div data-controller="dropdown" class="relative">
+        <button class="rounded pb-1 pl-1 pr-3 text-xs hover:text-primary" type="button" data-action="click-&gt;dropdown#toggle click@window-&gt;dropdown#hide touchend@window-&gt;dropdown#hide" data-dropdown-target="button" aria-expanded="false" data-qa="menu-ellipsis-vertical">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512" role="img" aria-labelledby="a883uil8wrgbqgohr072epf086dcv43t" class="inline h-4 flex-shrink-0 fill-current"><title id="a883uil8wrgbqgohr072epf086dcv43t">메뉴</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"></path></svg>
+        </button>
+        <div id="show-submenu" class="divide-gray-10 absolute right-2 z-10 hidden w-max divide-y rounded border border-gray-300 bg-white" data-dropdown-target="popup">
+              <ul class="px-4 py-2">
+        <li>
+          <a class="block py-1 hover:underline" data-qa="edit-post" href="https://codefor.kr/posts/njt0yOw/edit">Edit</a>
+        </li>
+        <li>
+          <form data-turbo-confirm="정말 삭제하시겠습니까?" class="button_to" method="post" action="https://codefor.kr/posts/njt0yOw"><input type="hidden" name="_method" value="delete" autocomplete="off"><button class="w-full py-1 text-left hover:underline" type="submit">
+            Destroy
+</button><input type="hidden" name="authenticity_token" value="z0G4vVtSJGuRY4b6kMe7_vzrgZ6Oh7uFjuyLY58n6z677sPyaztpEzR6nRYc2qmdJ6G30HkyOW5T1ZtqgmIFdA" autocomplete="off"></form>        </li>
+      <li>
+        <a class="block py-1 hover:underline" data-turbo-frame="revisions-modal_post_njt0yOw" href="https://codefor.kr/posts/njt0yOw/revisions">Change History</a>
+      </li>
+    </ul>
+      <ul class="px-4 py-2">
+          <li>
+            <a class="block py-1 hover:underline" data-turbo-frame="application_modal" href="https://codefor.kr/wheel/campaigns/new?campaign%5Bchannel_type%5D=email&amp;campaign%5Bcontent_source_post_id%5D=njt0yOw">Write Email Newsletter</a>
+          </li>
+      </ul>
+
+        </div>
+      </div>
+  </div>
+</div>
+<turbo-frame id="revisions-modal_post_njt0yOw" target="_top"></turbo-frame>
+
+<div class="prose mx-auto max-w-4xl break-all">
+  <p><span style="font-weight: 400;">안심이 프로젝트는 올해 4월과 6월 두 번의 밋앤핵을 통해 다양한 재난 경험과 인식을 공유하며, 재난 정보 서비스의 필요성과 방향성을 함께 고민하고 있습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;">지난 6월 밋앤핵의 주제는 행정안전부가 구글플레이와 앱스토어를 통해 배포하는 ‘안전디딤돌’ 앱을 탐색하는 것이었습니다. 이 앱이 제공하는 매뉴얼과 정보들이 실제로 얼마나 유용한지, 그리고 어떤 점이 보완될 수 있을지를 중심으로 분석하고 토론을 진행했습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;">👉 6월 밋앤핵 논의 내용과 결과 </span><a href="https://www.mentimeter.com/app/presentation/n/al6htns9durs1w6b65ubc4jn2w3vp8d8/present"><span style="font-weight: 400;">링크</span></a></p>
+<p><span style="font-weight: 400;">4월과 6월의 밋앤핵을 바탕으로, <strong>재난 중심이 아닌 사람 중심의 재난안전서비스</strong>를 만드는 것에 기여한다는 것을 안심이 프로젝트의 핵심 목표로 설정했어요. 단순한 사건·재난 정보를 나열하는 것이 아니라, <span style="text-decoration: underline;">사용자의 상황과 필요에 맞춘 정보</span>를 제공하는 것이 중요하다는 점이 강조되었습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;">이번 9월 밋앤핵에서는 서비스의 근간이 되는, <em>데이터와 서비스를 사용하는 사람들에 대해서 생각</em>해보는 시간을 가지고자 했습니다. 이를 위해서 실제 정보 재난 정보 공공 데이터 현황을 파악하고, 이 중 일부 데이터의 품질을 평가하는 활동과&nbsp; 공동 작업을 진행했어요.&nbsp;</span></p>
+<p><span style="font-weight: 400;">👉 밋앤핵 진행 슬라이드 </span><a href="https://docs.google.com/presentation/d/1pA2yZXVJx0IBMHjnTZx_sUf_Q4FszMCv2Vur8l1pxyA/edit#slide=id.p"><span style="font-weight: 400;">링크</span></a></p>
+<h2><span style="font-weight: 400;">공공데이터 평가 및 수요자 분류 활동</span></h2>
+<p><span style="font-weight: 400;">이번 활동에서는 <a href="https://www.data.go.kr/" target="_blank" rel="noopener">공공데이터포털</a></span><span style="font-weight: 400;">과 재난안전데이터공유플랫폼 </span><a href="https://www.safetydata.go.kr/)%EC%9D%84"><span style="font-weight: 400;">https://www.safetydata.go.kr/</span></a><span style="font-weight: 400;">을 활용하여 재난안전 관련 공공데이터의 품질을 평가하고, 수요자를 분류하는 공동 작업을 진행했습니다. 두 개의 활동을 동시에 진행하기 위해 그룹을 나눠 진행했어요.&nbsp;</span></p>
+<h4><strong><span style="font-size: 14pt;">그룹 1: 공공데이터 품질 평가</span></strong></h4>
+<p><span style="font-weight: 400;">활동을 위해 클루님이 </span><a href="https://www.safetydata.go.kr/"><span style="font-weight: 400;">재난안전데이터공유플랫폼</span></a><span style="font-weight: 400;">에서 2,844개의 데이터를 크롤링하여 준비해주셨어요. 공공데이터를 평가하는 과정에서 다음과 같은 평가 기준을 적용하였습니다:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">데이터에 잘못된 값이 있는지</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">최신 데이터가 반영되지 않는 문제</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">데이터 제공 주기의 적절성</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">보다 세부적인 데이터를 제공할 필요성</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">데이터 항목의 보완 필요 여부</span></li>
+</ul>
+<p><span style="font-weight: 400;">새로운 평가 요소가 있으면 참가자들이 직접 시트에 추가할 수 있도록 하였습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;">활동 결과 25개의 공공데이터에 대한 평가가 이뤄졌습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;">먼저 좋은 사례로는 </span><span style="font-weight: 400;">행정안전부의 침수흔적도와 지진발생이력 데이터, 기상청의 지진통보 데이터 등이 꼽혔습니다. 이 중 침수흔적도는 행정안전부의 </span><a href="https://www.safemap.go.kr/main/smap.do?flag=2"><span style="font-weight: 400;">생활안전지도</span></a><span style="font-weight: 400;">에서도 확인할 수 있어요.&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: 12pt;"><img src="./24년 9월_files/Group 2.png" alt="" width="1536" height="504"><span style="font-size: 10pt; color: #95a5a6;">여러 번 침수 피해를 겪은 강남역 일대의 생활안전지도 침수피해도 및 도시 침수지도 결과</span><br></span></p>
+<p><span style="font-weight: 400;">반면 좋지 않은 사례로는&nbsp; 행정안전부의 장애인 수, 산림청 산사태 예보정보가 선정되었는데요, </span><span style="font-weight: 400;">예를 들어 장애인 수 데이터의 경우 “지역별, 유형별 분류가 전혀 안되어 있”고 “행정동코드가 지역코드인 것으로 추정되나 제공되는 값으로는 어느 지역인지 알 수 없”다는 점이 문제로 지적되었습니다.&nbsp;</span></p>
+<p><span style="font-weight: 400;"><img src="./24년 9월_files/캡처.png" alt="" width="1536" height="493"></span></p>
+<p><span style="font-weight: 400;">공동 작업 시트는</span><a href="https://bit.ly/c4k-ansimi-2409"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">이 링크</span></a><span style="font-weight: 400;">에서 확인할 수 있습니다.</span></p>
+<p><span style="font-size: 12pt;">&nbsp;</span></p>
+<h4><strong><span style="font-size: 14pt;">그룹 2: 데이터 수요자 분류</span></strong></h4>
+<p><span style="font-weight: 400;">재난 정보 데이터가 보다 다양한 사람들에게 유용하게 활용될 수 있도록, 수요자 그룹을 나누는 작업도 함께 진행했습니다. 다음과 같은 그룹이 주요 수요자로 논의되었습니다:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">외국인 (언어 장벽을 고려한 정보 제공 필요)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">장애인 (접근성 강화 필요)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">영유아 동반자 (대피 시 추가 고려 요소 포함 필요)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">당뇨 등 지병이 있는 환자 (의료 및 응급 대응 정보 포함 필요)</span></li>
+</ul>
+<p><span style="font-weight: 400;">다소 낯선 주제일 수도 있었지만, 참고로 공유된 일본의 BOSAI DIVERSITY 웹과 은수님의 진행으로 편안한 분위기 속에서 진행되었습니다.&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;"><img title="재난 시 고려되어야 하는 다양성에 대한 정보를 담은 야후 재팬의 BOSAI DIVERSITY 웹사이트" src="./24년 9월_files/image 7.png" alt="" width="1536" height="551"><span style="font-size: 10pt; color: #95a5a6;">재난 시 고려되어야 하는 다양성에 대한 정보를 담은 야후 재팬의 BOSAI DIVERSITY 웹사이트</span></span></p>
+<p><span style="font-weight: 400;">수요자 분류 문서는 </span><a href="https://docs.google.com/document/d/1iwN63CftB5Ybw9UU33sFAUgFRt72k0qFo37ow8PMAwU/edit?tab=t.0#heading=h.o4b59a5w8k1q"><span style="font-weight: 400;">이 링크</span></a><span style="font-weight: 400;">에서 확인할 수 있습니다.&nbsp;</span></p>
+<h2><span style="font-weight: 400;">마무리 및 앞으로의 방향</span></h2>
+<p><span style="font-weight: 400;">이번 활동을 통해 우리는 공공데이터의 품질 문제를 인식하고, 사용자의 필요에 맞춘 데이터 제공이 중요함을 확인할 수 있었습니다. 재난 정보 서비스는 단순히 정보를 제공하는 것을 넘어, 사용자 맞춤형 정보와 실질적인 대응 가이드를 포함해야 한다는 점이 강조되었습니다.</span></p>
+<p><span style="font-weight: 400;">향후 활동에서는 공공데이터를 보다 활용할 수 있도록 가이드라인을 정리하고, 다양한 사용자층이 실질적으로 도움을 받을 수 있도록 더 정교한 수요자 분류를 탐색할 계획입니다.</span></p>
+<p><span style="font-weight: 400;">안심이는 앞으로도 재난 정보 서비스의 개선과 혁신을 위해 함께 고민해 나갈 것입니다.&nbsp;</span></p>
+<p><span style="font-size: 12pt;"><span style="font-weight: 400;">👋<span style="color: #3598db;"><strong> 안심이 프로젝트에 관심이 있으신가요? 디스코드 </strong></span></span><span style="color: #3598db;"><strong><a style="color: #3598db;" href="https://discord.gg/ZyPyZQvm">#안심이</a> 채널로 놀러오세요!</strong></span></span></p>
+</div>
+
+    </div>
+    <div class="print:hidden">
+      
+    </div>
+    
+    <div class="print:hidden">
+      
+    </div>
+      <ul class="flex flex-wrap ">
+      <li data-qa="tag">
+        <a class="inline-block py-1 px-1 text-sm text-gray-600 hover:underline" href="https://codefor.kr/search_entries?q%5Bterm%5D=%23%EB%B0%8B%EC%95%A4%ED%95%B5">#밋앤핵</a>
+      </li>
+      <li data-qa="tag">
+        <a class="inline-block py-1 px-1 text-sm text-gray-600 hover:underline" href="https://codefor.kr/search_entries?q%5Bterm%5D=%23%EC%95%88%EC%8B%AC%EC%9D%B4">#안심이</a>
+      </li>
+      <li data-qa="tag">
+        <a class="inline-block py-1 px-1 text-sm text-gray-600 hover:underline" href="https://codefor.kr/search_entries?q%5Bterm%5D=%23%EC%9E%AC%EB%82%9C">#재난</a>
+      </li>
+  </ul>
+
+    <div class="print:hidden flex flex-wrap justify-between  items-center pt-4 lg:pt-16">
+        <div class="flex items-center justify-center gap-2" id="like-button_post_njt0yOw">
+  <form class="flex items-center justify-center" method="post" action="https://codefor.kr/likes?likeable_sgid=eyJfcmFpbHMiOnsiZGF0YSI6ImdpZDovL21peC9Qb3N0LzExMjAyOCIsImV4cCI6IjIwMjYtMDYtMDVUMDc6MTI6MTIuMzY1WiIsInB1ciI6ImRlZmF1bHQifX0%3D--67b50cd605ee5403e74883da4c88a792ef879884"><input type="hidden" name="_method" value="delete" autocomplete="off"><button class=" p-2 space-x-1 whitespace-nowrap rounded-full border hover:text-primary group/likes-show-button text-primary border-primary hover:text-primary" type="submit">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="atmty1wouik9u8gdinpsf8c2oxggc5vp" class="flex-shrink-0 h-4 group-hover/likes-show-button:fill-primary fill-primary"><title id="atmty1wouik9u8gdinpsf8c2oxggc5vp">Like</title><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M313.4 32.9c26 5.2 42.9 30.5 37.7 56.5l-2.3 11.4c-5.3 26.7-15.1 52.1-28.8 75.2H464c26.5 0 48 21.5 48 48c0 18.5-10.5 34.6-25.9 42.6C497 275.4 504 288.9 504 304c0 23.4-16.8 42.9-38.9 47.1c4.4 7.3 6.9 15.8 6.9 24.9c0 21.3-13.9 39.4-33.1 45.6c.7 3.3 1.1 6.8 1.1 10.4c0 26.5-21.5 48-48 48H294.5c-19 0-37.5-5.6-53.3-16.1l-38.5-25.7C176 420.4 160 390.4 160 358.3V320 272 247.1c0-29.2 13.3-56.7 36-75l7.4-5.9c26.5-21.2 44.6-51 51.2-84.2l2.3-11.4c5.2-26 30.5-42.9 56.5-37.7zM32 192H96c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V224c0-17.7 14.3-32 32-32z"></path></svg>
+</button><input type="hidden" name="authenticity_token" value="tB_U4sa1euwZG-4UU96E42a7mDPm17uMdSmxBv5C7Gf89ZRavRrnfW1AOT1h2EYzel02PyBFHkq0V-LDSKGPvA" autocomplete="off"></form>    <turbo-frame id="like-users-frame_post_njt0yOw" src="https://codefor.kr/likes?likeable_sgid=eyJfcmFpbHMiOnsiZGF0YSI6ImdpZDovL21peC9Qb3N0LzExMjAyOCIsImV4cCI6IjIwMjYtMDYtMDVUMDc6MTI6MTIuMzc5WiIsInB1ciI6ImRlZmF1bHQifX0%3D--a89782e636bbfbcf39243ba7fd998f6cb4f2c55b" complete="">
+  <button data-modal-target="like-users-modal_post_njt0yOw" data-modal-toggle="like-users-modal_post_njt0yOw" class="text-sm font-light lg:text-xs">
+      ㄹ
+      1 person
+  </button>
+  <div id="like-users-modal_post_njt0yOw" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative max-h-full w-full max-w-md p-4">
+      <!-- Modal content -->
+      <div class="relative rounded-lg bg-white shadow">
+        <!-- Modal header -->
+        <div class="flex items-center justify-between rounded-t border-b p-4 md:p-5">
+          <h3 class="text-lg font-semibold text-gray-900">
+            Like
+          </h3>
+          <button type="button" class="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900" data-modal-toggle="like-users-modal_post_njt0yOw">
+            <svg class="h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 md:p-5">
+          <ol class="relative mb-4 md:mb-5" id="like-users-list_post_njt0yOw">
+            <li class="my-4 flex space-x-2">
+  <span class="-start-3.5 h-6 w-6 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
+    <img class="h-6 w-6 rounded-full object-cover" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHZlcnNpb249IjEuMSI+PHJlY3QgZmlsbD0iI2NhOGEwNCIgY3g9IjMyIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGN5PSIzMiIgcj0iMzIiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgc3R5bGU9ImNvbG9yOiAjZmZmZmZmOyBsaW5lLWhlaWdodDogMTsiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iNDAwIiBkeT0iLjFlbSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iI2ZmZmZmZiI+44S5PC90ZXh0Pjwvc3ZnPg==">
+  </span>
+  <h3 class="mb-1 flex items-start text-sm text-gray-900">ㄹ</h3>
+</li>
+
+            <li id="next-likes_post_njt0yOw"></li>
+          </ol>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</turbo-frame>
+</div>
+
+      <section>
+  <div class="flex justify-end" data-controller="share" data-share-kakao-description-value="안심이 프로젝트는 올해 4월과 6월 두 번의 밋앤핵을 통해 다양한 재난 경험과 인식을 공유하며, 재난 정보 서비스의 필요성과 방향성을 함께 고민하고 있습니다.&amp;nbsp;
+지난 6월 밋앤핵의 주제는 행정안전부가 구글플레이와 앱스토어를 통해 배포하는 ‘안전디딤돌’ 앱..." data-share-kakao-js-key-value="2e03cd82e357b3c91d04f56b7b9c81e7" data-share-kakao-image-url-value="https://codefor.kr/_storage_/public/100/iknkmsv0r026hnllep2kc43zm2g0" data-share-twitter-text-value="24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기" data-share-kakao-title-value="24년 9월 밋앤핵: 재난 안전 공공 데이터와 재난 정보 수요자 탐색하기" data-share-url-value="https://codefor.kr/posts/njt0yOw">
+      <button class="bg-icon-kt hover:bg-icon-kt-on mx-1 h-9 w-9" data-action="click-&gt;share#kakao" data-share-target="kakao" type="button" title="새창 열림">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 60 60" fill="none" role="img" aria-labelledby="a432lj6qc95rfp0hakrg5qccqn3z39u7"><title id="a432lj6qc95rfp0hakrg5qccqn3z39u7">카카오톡</title>
+    <g clip-path="url(#2krpcl42na)">
+        <path d="M60 30C60 13.43 46.568 0 30 0 13.43 0 0 13.431 0 30c0 16.568 13.431 30 30 30 16.568 0 30-13.432 30-30z" fill="#FBE34D"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.666 18.666c-6.626 0-12 4.174-12 9.32 0 3.2 2.08 6.027 5.24 7.707l-1.333 4.894c-.12.426.373.773.747.52l5.84-3.867c.493.053.986.08 1.506.08 6.627 0 12-4.173 12-9.32s-5.373-9.32-12-9.32v-.014z" fill="#000" fill-opacity=".9"></path>
+    </g>
+    <defs>
+        <clippath id="2krpcl42na">
+            <path fill="#fff" d="M0 0h60v60H0z"></path>
+        </clippath>
+    </defs>
+</svg>
+        <span class="sr-only">카카오톡</span>
+      </button>
+    <button class="bg-icon-fb hover:bg-icon-fb-on mx-1 h-9 w-9" data-action="click-&gt;share#facebook" type="button" title="새창 열림">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 60 60" fill="none" role="img" aria-labelledby="abfo8hn0vkj2e4nmt1z6nolf3ul0wfce"><title id="abfo8hn0vkj2e4nmt1z6nolf3ul0wfce">페이스북</title>
+    <ellipse cx="30" cy="29.691" rx="30" ry="29.5" fill="#105FE4"></ellipse>
+    <path d="m36.397 31.118.855-5.338h-5.268v-3.47c0-1.46.735-2.887 3.087-2.887H37.5v-4.546a29.955 29.955 0 0 0-4.276-.359c-4.336 0-7.167 2.561-7.167 7.19v4.072H21.25v5.338h4.807v12.913h5.927V31.118h4.413z" fill="#fff"></path>
+</svg>
+      <span class="sr-only">페이스북</span>
+    </button>
+    <button class="bg-icon-tw hover:bg-icon-tw-on mx-1 h-9 w-9" data-action="click-&gt;share#twitter" type="button" title="새창 열림">
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none" role="img" aria-labelledby="age7i5m4morexg5jvj1uvo5lr5tywkih"><title id="age7i5m4morexg5jvj1uvo5lr5tywkih">트위터</title>
+<g clip-path="url(#clip0_16323_13312)">
+<path d="M18.0018 36.0251C27.7802 36.0251 35.7067 28.098 35.7067 18.3202C35.7067 8.54173 27.7802 0.615234 18.0018 0.615234C8.22337 0.615234 0.296875 8.54173 0.296875 18.3202C0.296875 28.098 8.22337 36.0251 18.0018 36.0251Z" fill="#111827"></path>
+<path d="M19.1416 17.5811L23.6089 12.5H22.5503L18.6714 16.9119L15.5733 12.5H12L16.6849 19.1716L12 24.5H13.0587L17.155 19.8409L20.4268 24.5H24.0001L19.1415 17.5811H19.1418H19.1416ZM17.6916 19.2304L17.2169 18.5661L13.4401 13.2798H15.0661L18.1141 17.5459L18.5888 18.2102L22.5508 23.7556H20.9248L17.6917 19.2305V19.2302L17.6916 19.2304Z" fill="white"></path>
+</g>
+<defs>
+<clippath id="clip0_16323_13312">
+<rect width="36" height="36" fill="white" transform="translate(0 0.5)"></rect>
+</clippath>
+</defs>
+</svg>
+      <span class="sr-only">트위터</span>
+    </button>
+    <button class="mx-1 h-9 w-9 rounded-full border border-gray-200 bg-gray-50 p-1" data-controller="clipboard" data-clipboard-success-message-value="주소가 복사되었습니다." data-action="clipboard#copy" data-clipboard-content-value="https://codefor.kr/posts/njt0yOw" type="button" aria-label="주소 복사">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" role="img" aria-labelledby="aqnsdd4ybydokfkk1mfw3idqvm5ldm6g" class="text-[#9CA3AF]"><title id="aqnsdd4ybydokfkk1mfw3idqvm5ldm6g">주소 복사</title>
+  <path d="M15 4.5V7.5C15 8.05228 14.5523 8.5 14 8.5H11M13 18.5V19.5C13 20.0523 12.5523 20.5 12 20.5H5C4.44772 20.5 4 20.0523 4 19.5V12.3699C4 12.1312 4.08539 11.9004 4.24074 11.7191L6.70068 8.84921C6.89066 8.62756 7.16801 8.5 7.45993 8.5H9M8 12.5H4M20 5.5V15.5C20 16.0523 19.5523 16.5 19 16.5H12C11.4477 16.5 11 16.0523 11 15.5V8.36992C11 8.13121 11.0854 7.90038 11.2407 7.71913L13.7007 4.84921C13.8907 4.62756 14.168 4.5 14.4599 4.5H19C19.5523 4.5 20 4.94772 20 5.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+</svg>
+    </button>
+  </div>
+</section>
+
+    </div>
+      <div>
+        <section id="related_contents" class="bg-white my-4 antialiased lg:my-8 group/related_contents is-list">
+  <div class="mb-6 flex items-center justify-between">
+    <h2 class="text-lg font-bold text-gray-900 lg:text-2xl">Related Contents</h2>
+  </div>
+  <ul class="my-4
+    /* list */
+    group-[.is-list]/related_contents:flex
+    group-[.is-list]/related_contents:flex-col
+    group-[.is-list]/related_contents:gap-4
+    /* card */
+    group-[.is-card]/related_contents:grid
+    group-[.is-card]/related_contents:grid-cols-1
+    group-[.is-card]/related_contents:gap-4
+    group-[.is-card]/related_contents:sm:grid-cols-2
+    group-[.is-card]/related_contents:md:grid-cols-3">
+      <li class="rounded border p-4 group-[.is-card]/related_contents:shadow">
+        <a class="grid gap-2" href="https://codefor.kr/posts/2xt236v">
+            <img class="group-[.is-card]:block/related_contents mb-2 hidden rounded" src="./24년 9월_files/2024-04-21 밋앤핵_안전 관련 프로젝트 제안_디스커션가이드.jpg" loading="lazy">
+          <h3 class="line-clamp-2 text-lg font-semibold tracking-tight text-gray-900">24년 4월 밋앤핵: 재난 인식 오픈 디스커션</h3>
+          <div class="line-clamp-4 text-md text-gray-500">
+            재난에 대해 다시 생각하다: 24년 4월 밋앤핵
+24년 4월 21일 밋앤핵에서는 ‘재난’에 대해 깊이 있는 논의를 나누었습니다. 우리가 막연하게 알고 있던 재난이 실제로는 얼마나 다양한 형태로 다가올 수 있는지, 그리고 우리의 대응은 과연 충분한지에 대해 고민해보는 시간이었습니다.&nbsp;
+👉 디스커션 가이드 다시 보기 (Google slide)
+
+...
+          </div>
+</a>      </li>
+  </ul>
+</section>
+
+      </div>
+
+    <div class="print:hidden">
+      
+        <section id="comments-section" class="mb-8 mt-4 bg-white antialiased lg:mb-16 lg:mt-8">
+  <div id="commentable-comments-header" class="mb-6 flex items-center justify-between">
+  <h2 class="text-lg font-bold text-gray-900 lg:text-2xl">Comment (0)</h2>
+</div>
+
+      <form id="comments-form" action="https://codefor.kr/posts/njt0yOw/comments" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gf-XYTvFupdlJcId6sw5zI2PnsSF0Kp5tqVY91ZptadqFcxTFDMuiftmOAHFTEUAu1aDJJ5WfItGrGYqwhSnXQ" autocomplete="off">
+    <input autocomplete="off" type="hidden" value="Post" name="comment[commentable_type]" id="comment_commentable_type">
+    <input autocomplete="off" type="hidden" value="112028" name="comment[commentable_id]" id="comment_commentable_id">
+    <div class="mb-4 rounded-lg rounded-t-lg border border-gray-200 bg-white px-4 py-2">
+      <label for="comment" class="sr-only">New Comment</label>
+      <textarea class="w-full border-0 px-0 text-sm text-gray-900 focus:outline-none focus:ring-0" placeholder="Please enter Comment. (Posting content that violates rights, contains profanity, insults specific targets, or harmful content to minors may result in sanctions under operating policies, terms of service, and relevant laws. Please join in creating a culture of respectful communication.)" required="required" name="comment[body]" id="comment_body"></textarea>
+    </div>
+    <div class="flex justify-end">
+      <input type="submit" name="commit" value="Save" class="inline-flex cursor-pointer items-center bg-primary px-3 py-1 text-center text-xs font-medium text-primary_foreground hover:brightness-95 focus:ring-4 focus:ring-gray-200" data-disable-with="Save">
+    </div>
+</form>
+
+  <div id="comments">
+  </div>
+</section>
+
+    </div>
+  </section>
+</section>
+
+
+</main>    <footer class="is-application-main-only:hidden border-t bg-white">
+  <div class="mix-container w-full py-6 lg:py-8">
+    <div class="mb-6 md:flex md:justify-between">
+      <div class="items-center sm:flex">
+          <div>
+            <a href="https://codefor.kr/" class="flex items-center">
+                <img class="mr-3 h-8" alt="코드포코리아 (Code for Korea)" src="./24년 9월_files/로고-코포코.png" loading="lazy">
+            </a>
+          </div>
+        <ul class="mt-2 flex items-center space-x-4 text-sm font-medium text-gray-500 sm:mb-0 sm:mt-0">
+            <li>
+              <a class="hover:underline" href="https://codefor.kr/pages/581">기여자 행동강령 규약(COC)</a>
+            </li>
+              <li>
+                <a class="font-semibold text-gray-800 hover:underline" href="https://codefor.kr/service_conditions/privacy">개인정보처리방침</a>
+              </li>
+        </ul>
+      </div>
+      <div class="mt-4 flex space-x-5 sm:mt-0 sm:justify-center">
+          <a target="_blank" class="text-gray-500 hover:text-gray-900" href="https://www.instagram.com/codeforkr/">
+            <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"></path></svg>
+            <span class="sr-only">Instagram page</span>
+</a>          <a target="_blank" class="text-gray-500 hover:text-gray-900" href="https://twitter.com/codeforkr">
+            <svg class="h-5 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 24"><path d="M21.8755 23.4813C21.7894 23.6381 21.6628 23.7689 21.5089 23.8602C21.355 23.9514 21.1794 23.9997 21.0005 24H15.0005C14.8322 23.9999 14.6666 23.9574 14.5191 23.8764C14.3716 23.7953 14.247 23.6783 14.1567 23.5362L9.09549 15.5825L1.74049 23.6725C1.56119 23.8651 1.3132 23.9793 1.05029 23.9903C0.787384 24.0012 0.530739 23.9082 0.336001 23.7312C0.141264 23.5542 0.02413 23.3076 0.00999402 23.0448C-0.00414193 22.7821 0.08586 22.5243 0.260487 22.3275L7.98174 13.8275L0.156736 1.5375C0.0603634 1.3863 0.00641404 1.21198 0.000537388 1.03278C-0.00533926 0.853574 0.0370728 0.676088 0.123333 0.518902C0.209593 0.361717 0.336528 0.230615 0.490846 0.139325C0.645164 0.0480342 0.821188 -8.70794e-05 1.00049 1.18294e-07H7.00049C7.16879 5.21628e-05 7.33435 0.0425814 7.48185 0.123647C7.62934 0.204713 7.75398 0.321693 7.84424 0.46375L12.9055 8.4175L20.2605 0.3275C20.4398 0.134898 20.6878 0.0207293 20.9507 0.00974476C21.2136 -0.0012398 21.4702 0.0918457 21.665 0.26882C21.8597 0.445794 21.9768 0.692393 21.991 0.955153C22.0051 1.21791 21.9151 1.47565 21.7405 1.6725L14.0192 10.1663L21.8442 22.4638C21.9401 22.615 21.9935 22.7892 21.999 22.9682C22.0045 23.1472 21.9619 23.3244 21.8755 23.4813Z" fill="#6B7280"></path></svg>
+            <span class="sr-only">Twitter page</span>
+</a>          <a target="_blank" class="text-gray-500 hover:text-gray-900" href="https://medium.com/codeforkorea">
+            <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32zM96 144c0-26.5-21.5-48-48-48S0 117.5 0 144V368c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144H128v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48V144z"></path></svg>
+            <span class="sr-only">blog page</span>
+</a>          <a target="_blank" class="text-gray-500 hover:text-gray-900" href="https://github.com/Code-for-Korea/">
+            <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"></path></svg>
+            <span class="sr-only">Github page</span>
+</a>          <a target="_blank" class="text-gray-500 hover:text-gray-900" href="https://discord.gg/xNNvfhJUV5">
+            <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16"><path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"></path></svg>
+            <span class="sr-only">Discord page</span>
+</a>      </div>
+    </div>
+    <div class="my-4">
+    </div>
+      <div class="is-footer group">    <section id="page_block_types_html_1196" style="background-color: " class="group group-page-block-type my-16 group-[.is-footer]:my-8 first-of-type:mt-4 first-of-type:md:mt-8 group-[.group-no-section-margin]:m-0">
+    <div class="mix-container group-[.is-footer]:px-0">
+    <p class="text-gray-500 text-sm mt-6">
+  <a href="https://mixon.io/" target="_blank">이 멋진 홈페이지는 믹스온으로 만들었습니다.</a>
+</p>
+  </div>
+
+</section>
+
+
+</div>
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center">© 2024 <a href="https://codefor.kr/" class="hover:underline">코드포코리아 (Code for Korea)</a>. All Rights Reserved.
+      </span>
+    </div>
+  </div>
+</footer>
+
+    <turbo-frame id="application_modal"></turbo-frame>
+    
+
+
+
+<iframe style="display: none;" src="./24년 9월_files/saved_resource.html"></iframe></body>
+
+</html>

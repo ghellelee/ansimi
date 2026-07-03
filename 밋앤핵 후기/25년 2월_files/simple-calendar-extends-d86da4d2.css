@@ -1,0 +1,39 @@
+.simple-calendar.basic-simple-calendar tbody > tr > td > a > div:first-child {
+  border-style: dashed;
+  border-bottom-width: 1px;
+}
+.simple-calendar.basic-simple-calendar tbody > tr > td > a:last-child > div:first-child {
+  border-bottom-width: 0;
+}
+.simple-calendar.basic-simple-calendar tbody > tr:last-child {
+  border-bottom-width: 1px;
+}
+.simple-calendar.basic-simple-calendar .resources-daily-calendar-time-slot-width {
+  width: 48px;
+  min-width: 48px;
+}
+.simple-calendar.basic-simple-calendar .resources-daily-calendar-time-slot-column-width {
+  min-width: 100px;
+}
+.simple-calendar.basic-simple-calendar .resources-daily-calendar-time-slot-height {
+  height: 80px;
+}
+.simple-calendar.basic-simple-calendar .resources-daily-calendar-time-block-height {
+  height: var(--calendar-time-block-height);
+}
+.simple-calendar.basic-simple-calendar tbody > tr:first-child > td:first-child > div:first-child > div:first-child {
+  color: white !important;
+}
+
+.simple-calendar.basic-simple-calendar .wday-0 {
+  color: #cc3300;
+}
+.simple-calendar.basic-simple-calendar .wday-6 {
+  color: #0066cc;
+}
+@media (min-width: 768px) {
+  .simple-calendar.basic-simple-calendar .resources-daily-calendar-time-slot-width {
+    width: 64px;
+    min-width: 48px;
+  }
+}
